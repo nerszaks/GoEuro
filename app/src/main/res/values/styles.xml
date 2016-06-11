@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextField">
+        <item name="android:textSize">16dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextFieldHeader" parent="TextField">
+        <item name="android:textSize">36dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextFieldLabel" parent="TextField">
+        <item name="android:textSize">12dp</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:textColor">@color/label</item>
+    </style>
+
+    <style name="Btn" parent="TextField">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@drawable/btn_textcolor</item>
+        <item name="android:background">@drawable/btn_bg</item>
+    </style>
+
+    <style name="EditText" parent="TextField">
+        <item name="android:background">@drawable/et_bg</item>
+    </style>
+</resources>

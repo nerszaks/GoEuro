@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GoEuro</string>
+    <string name="search">Search</string>
+    <string name="SearchNImplemented">Search is not yet implemented</string>
+    <string name="CheckLocationSettings">Please, check location settings</string>
+    <string name="RequestedPermission">This functionality requires permission to access to the device location</string>
+    <string name="CheckInternetConnection">Please, check your internet connection</string>
+    <string name="SelectDestinationFrom">Select destination from:</string>
+    <string name="SelectDestinationTo">Select destination to:</string>
+    <string name="SelectDate">Select date</string>
+</resources>
